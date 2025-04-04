@@ -1,5 +1,14 @@
 # CrewAI Quiz Chatbot 🤖
 
+<div align="center">
+  
+  [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://eiliya-mohebi.streamlit.app/)  
+</div>
+
+<div align="center">
+  <img src="./demo-gif.gif" alt="App Demo" width="600"/>
+</div>
+
 A Streamlit web application that leverages CrewAI and large language model (OpenAi) to generate multiple-choice questions (MCQs) based on user-provided text or topics.
 
 ## Description
@@ -17,6 +26,12 @@ This application was developed as the final project for the Filoger NLP course.
 *   **Answer Checking:** Allows users to select an answer and verifies if it's correct.
 *   **Persian Support:** Can handle input in Persian.
 *   **Customizable LLM:** Uses environment variables to set the API base URL and model name.
+*   
+## Live Demo
+
+The app is deployed and accessible as a Streamlit web application:
+
+[https://eiliya-mohebi.streamlit.app/](https://eiliya-mohebi.streamlit.app/)
 
 ## Tech Stack
 
@@ -60,7 +75,7 @@ This application was developed as the final project for the Filoger NLP course.
 Run the Streamlit application:
 
 ```bash
-streamlit run filoger_chatbot/main.py
+streamlit run crewai-quiz-chatbot/main-crew.py
 ```
 
 Open your web browser and navigate to the local URL provided by Streamlit (usually `http://localhost:8501`). Enter a topic or text in the input field and click "Generate Question".
