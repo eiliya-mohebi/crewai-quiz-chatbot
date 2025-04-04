@@ -26,7 +26,7 @@ This application was developed as the final project for the Filoger NLP course.
 *   **Answer Checking:** Allows users to select an answer and verifies if it's correct.
 *   **Persian Support:** Can handle input in Persian.
 *   **Customizable LLM:** Uses environment variables to set the API base URL and model name.
-*   
+
 ## Live Demo
 
 The app is deployed and accessible as a Streamlit web application:
